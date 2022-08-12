@@ -35,7 +35,7 @@ function App() {
     }
     setIsLoading(false);
   }, []);
-
+ 
   useEffect(() => {
     fetchMoviesHandler();
   }, [fetchMoviesHandler]);
