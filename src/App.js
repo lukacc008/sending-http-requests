@@ -18,7 +18,7 @@ function App() {
         throw new Error('Something went wrong!');
       }
 
-      const data = await response.json();
+      const data = await response.json(); 
 
       const loadedMovies = [];
 
